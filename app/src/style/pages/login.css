@@ -1,0 +1,42 @@
+.login-wrapper {
+    height: 100vh;
+}
+
+.login-wrapper-left-side {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 60px;
+    text-align: center;
+    background-color: #d8c6b7;
+    color: #212529;
+}
+
+.login-content {
+    width: 70%;
+}
+
+.login-content__title {
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    padding-bottom: 32px;
+    margin: unset;
+}
+
+.login-content__description {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-bottom: 76px;
+    margin: unset;
+}
+
+.logo-brand {
+    padding-bottom: 65px;
+}
+
+.logo-brand img {
+    width: 20%;
+    object-fit: contain;
+}
+

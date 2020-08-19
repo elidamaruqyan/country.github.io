@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description"
+          content="Get Country">
+    <meta name="author" content="Elida Maruqyan">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="country, favorites, flag, login">
+    <title>Login</title>
+
+    <!--Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+          rel="stylesheet">
+
+    <!--Style Links -->
+    <link rel="stylesheet" href="src/style/main.css">
+</head>
+<body>
+<main class="login-wrapper flex-container">
+    <section class="flex-container flex-item login-wrapper-left-side">
+        <div class="logo-brand">
+            <img src="src/assets/logo.png" alt="logo" width="100">
+        </div>
+        <div class="login-content">
+            <h3 class="login-content__title">Log In</h3>
+            <p class="login-content__description"> Enter username and password to log in: </p>
+            <form class="login-form-wrapper" id="login-form">
+                <div class="form-group">
+                    <label for="email" class="input-group">
+                        <input class="login-input form-input" id="email" type="email" placeholder="Username" required>
+                        <span class="input-icon"><i class="fas fa-user"></i></span>
+                    </label>
+                    <p class="error-block"></p>
+                </div>
+                <div class="form-group">
+                    <label for="pass" class="input-group">
+                        <input class="login-input form-input" id="pass" type="password" placeholder="Password" required>
+                        <span class="input-icon"><i class="fas fa-key"></i></span>
+                    </label>
+                </div>
+                <button type="submit" class="btn login-btn" disabled>Login</button>
+            </form>
+        </div>
+    </section>
+    <section class="flex-item">
+        <img src="src/assets/country.jpeg" alt="country" width="100">
+    </section>
+</main>
+
+<!--Font Awesome kit's -->
+<script src="https://kit.fontawesome.com/a961982f40.js" crossorigin="anonymous"></script>
+
+<script type="module" src="src/js/index.js"></script>
+</body>
+</html>
