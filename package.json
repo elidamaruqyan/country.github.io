@@ -1,0 +1,36 @@
+{
+  "name": "country",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel app/*.html",
+    "build": "parcel build app/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elidamaruqyan/country.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elidamaruqyan/country/issues"
+  },
+  "homepage": "https://github.com/elidamaruqyan/country#readme",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  },
+  "dependencies": {
+    "base": "^3.0.0",
+    "component": "^1.1.0",
+    "layout": "^2.2.0",
+    "loader": "^2.1.1",
+    "media": "^0.2.1",
+    "pages": "0.0.16"
+  },
+  "keywords": [],
+  "description": ""
+}
