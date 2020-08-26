@@ -26,21 +26,25 @@
         <div class="login-content">
             <h3 class="login-content__title">Log In</h3>
             <p class="login-content__description"> Enter username and password to log in: </p>
-            <form class="login-form-wrapper" id="login-form">
-                <div class="form-group">
-                    <label for="email" class="input-group">
-                        <input class="login-input form-input" id="email" type="email" placeholder="Username" required>
-                        <span class="input-icon"><i class="fas fa-user"></i></span>
-                    </label>
-                    <p class="error-block"></p>
-                </div>
-                <div class="form-group">
-                    <label for="pass" class="input-group">
-                        <input class="login-input form-input" id="pass" type="password" placeholder="Password" required>
-                        <span class="input-icon"><i class="fas fa-key"></i></span>
+            <form id="form" class="form login-form-wrapper">
+                <div class="form-control form-group">
+                    <label for="username" class="input-group">
+                        <input type="email" placeholder="Username" id="username" class="login-input form-input"/>
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
                     </label>
                 </div>
-                <button type="submit" class="btn login-btn" disabled>Login</button>
+
+                <div class="form-control form-group">
+                    <label for="username" class="input-group">
+                        <input type="password" placeholder="Password" id="password" class="login-input form-input"/>
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </label>
+                </div>
+                <button class="btn login-btn form-btn">Submit</button>
             </form>
         </div>
     </section>
@@ -52,6 +56,6 @@
 <!--Font Awesome kit's -->
 <script src="https://kit.fontawesome.com/a961982f40.js" crossorigin="anonymous"></script>
 
-<script type="module" src="src/js/index.js"></script>
+<script type="module" src="src/js/login.js"></script>
 </body>
 </html>

@@ -4,9 +4,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel app/*.html",
-    "build": "parcel build app/*.html",
-    "deploy": "rm -rf dist/ && npm build && gh-pages -d dist"
+    "start": "parcel ./app/*.html",
+    "dev": "parcel ./app/*.html",
+    "predeploy": "rm -rf ./dist && parcel build index.html",
+    "build": "parcel build ./app/*.html",
+    "deploy": "gh-pages -d ./dist"
   },
   "repository": {
     "type": "git",
@@ -22,7 +24,8 @@
     "cssnano": "^4.1.10",
     "eslint": "^7.7.0",
     "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-plugin-import": "^2.22.0"
+    "eslint-plugin-import": "^2.22.0",
+    "gh-pages": "^3.1.0"
   },
   "dependencies": {
     "base": "^3.0.0",
@@ -30,7 +33,8 @@
     "layout": "^2.2.0",
     "loader": "^2.1.1",
     "media": "^0.2.1",
-    "pages": "0.0.16"
+    "pages": "0.0.16",
+    "services": "0.0.3"
   },
   "keywords": [],
   "description": ""
