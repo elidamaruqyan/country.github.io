@@ -24,3 +24,11 @@ export const checkMinLength = (value, minLength, regex) => {
   }
   return value && value.length < minLength;
 };
+
+export const checkField = (value) => {
+  if (value.trim() !== "") {
+    return value;
+  }
+
+  return "wrong";
+};

@@ -21,27 +21,21 @@
 <main class="login-wrapper flex-container">
     <section class="flex-container flex-item login-wrapper-left-side">
         <div class="logo-brand">
-            <img src="src/assets/logo.png" alt="logo" width="100">
+            <img src="../assets/logo.png" alt="logo" width="100">
         </div>
         <div class="login-content">
             <h3 class="login-content__title">Log In</h3>
             <p class="login-content__description"> Enter username and password to log in: </p>
             <form id="form" class="form login-form-wrapper">
-                <div class="form-control form-group">
+                <div class="form-control form-group username-control">
                     <label for="username" class="input-group">
                         <input type="email" placeholder="Username" id="username" class="login-input form-input"/>
-                        <i class="fas fa-check-circle"></i>
-                        <i class="fas fa-exclamation-circle"></i>
-                        <small>Error message</small>
                     </label>
                 </div>
 
-                <div class="form-control form-group">
-                    <label for="username" class="input-group">
+                <div class="form-control form-group password-control">
+                    <label for="password" class="input-group">
                         <input type="password" placeholder="Password" id="password" class="login-input form-input"/>
-                        <i class="fas fa-check-circle"></i>
-                        <i class="fas fa-exclamation-circle"></i>
-                        <small>Error message</small>
                     </label>
                 </div>
                 <button class="btn login-btn form-btn">Submit</button>
@@ -49,13 +43,13 @@
         </div>
     </section>
     <section class="flex-item">
-        <img src="src/assets/country.jpeg" alt="country" width="100">
+        <img src="../assets/country.jpeg" alt="country" width="100">
     </section>
 </main>
 
 <!--Font Awesome kit's -->
 <script src="https://kit.fontawesome.com/a961982f40.js" crossorigin="anonymous"></script>
 
-<script type="module" src="src/js/login.js"></script>
+<script type="module" src="../js/login.js"></script>
 </body>
 </html>

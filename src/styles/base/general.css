@@ -3,23 +3,6 @@
     /*********** Color Variables *************************/
     --clr-ntrl-min: rgba(255, 255, 255, 1);
     --clr-ntrl-max: rgba(0, 0, 0, 1);
-    --main-brand-color: rgba(217, 186, 140, 1);
-    --secondary-dark-color: rgba(35, 35, 35, 1);
-    --main-dark-bg: rgba(51, 51, 51, 1);
-    --primary-color-dk: rgba(100, 100, 100, 1);
-    --primary-color-lt: rgba(96, 96, 96, 1);
-    --primary-color-ltr: rgba(204, 204, 204, 1);
-
-    /**************** Gap and Duration Variables **********************/
-    --vmargin: 150px;
-    --duration: 3s;
-
-    /****************** Z-Index Variables ******************/
-    --zIndex-1: 9;
-    --zIndex-2: 99;
-    --zIndex-3: 999;
-    --zIndex-4: 9999;
-    --zIndex-5: 99999;
 
     /************ Typography Variables ******************/
 
